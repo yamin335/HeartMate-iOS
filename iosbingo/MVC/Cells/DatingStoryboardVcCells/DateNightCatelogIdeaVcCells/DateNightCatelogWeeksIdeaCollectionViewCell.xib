@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Light.otf">
+            <string>Inter-Light</string>
+        </array>
+        <array key="Inter-Regular.otf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DateNightCatelogWeeksIdeaCollectionViewCell" id="gTV-IL-0wX" customClass="DateNightCatelogWeeksIdeaCollectionViewCell" customModule="iosbingo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="175" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="175" height="213"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NS6-Z9-rty">
+                        <rect key="frame" x="0.0" y="0.0" width="175" height="213"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Datingbackground" translatesAutoresizingMaskIntoConstraints="NO" id="aKb-Em-ijb">
+                                <rect key="frame" x="3" y="3" width="169" height="207"/>
+                                <color key="backgroundColor" name="gray_color_1"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="coI-oA-iq0">
+                                <rect key="frame" x="11" y="125" width="153" height="77"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Road Trip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NRH-Wl-aJs">
+                                        <rect key="frame" x="8" y="12" width="54" height="15"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn my musical tastes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ex1-hz-NwM">
+                                        <rect key="frame" x="8" y="31" width="101.5" height="11"/>
+                                        <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="9"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1dL-Yw-hHY">
+                                        <rect key="frame" x="97" y="49" width="48" height="20"/>
+                                        <color key="backgroundColor" red="0.158025533" green="0.62649488450000002" blue="0.73264253140000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="3wU-Rp-hK4"/>
+                                            <constraint firstAttribute="width" constant="48" id="e33-Hk-Jgo"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="9"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Route"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="26 aspects of me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNw-IF-Z5j">
+                                        <rect key="frame" x="8" y="54.5" width="58" height="9"/>
+                                        <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="7"/>
+                                        <color key="textColor" red="0.4837021232" green="0.43636006119999998" blue="0.43585228920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.77284749348958337" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="NRH-Wl-aJs" firstAttribute="leading" secondItem="coI-oA-iq0" secondAttribute="leading" constant="8" id="4a6-xh-Jha"/>
+                                    <constraint firstItem="LNw-IF-Z5j" firstAttribute="centerY" secondItem="1dL-Yw-hHY" secondAttribute="centerY" id="5HN-MR-b5f"/>
+                                    <constraint firstItem="NRH-Wl-aJs" firstAttribute="top" secondItem="coI-oA-iq0" secondAttribute="top" constant="12" id="B4l-IL-wF5"/>
+                                    <constraint firstItem="Ex1-hz-NwM" firstAttribute="leading" secondItem="coI-oA-iq0" secondAttribute="leading" constant="8" id="F42-85-aWY"/>
+                                    <constraint firstAttribute="trailing" secondItem="1dL-Yw-hHY" secondAttribute="trailing" constant="8" id="Keh-jf-O9X"/>
+                                    <constraint firstItem="Ex1-hz-NwM" firstAttribute="top" secondItem="NRH-Wl-aJs" secondAttribute="bottom" constant="4" id="dJU-qh-jpV"/>
+                                    <constraint firstAttribute="bottom" secondItem="1dL-Yw-hHY" secondAttribute="bottom" constant="8" id="h04-c4-4DG"/>
+                                    <constraint firstItem="LNw-IF-Z5j" firstAttribute="leading" secondItem="coI-oA-iq0" secondAttribute="leading" constant="8" id="oFi-Tg-vED"/>
+                                    <constraint firstAttribute="height" constant="77" id="rAz-4b-vkd"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="coI-oA-iq0" secondAttribute="bottom" constant="11" id="1rF-cb-Ob4"/>
+                            <constraint firstItem="aKb-Em-ijb" firstAttribute="leading" secondItem="NS6-Z9-rty" secondAttribute="leading" constant="3" id="4uR-96-NMF"/>
+                            <constraint firstAttribute="trailing" secondItem="coI-oA-iq0" secondAttribute="trailing" constant="11" id="E8g-Z1-hkC"/>
+                            <constraint firstItem="coI-oA-iq0" firstAttribute="leading" secondItem="NS6-Z9-rty" secondAttribute="leading" constant="11" id="N42-cc-OqR"/>
+                            <constraint firstItem="aKb-Em-ijb" firstAttribute="top" secondItem="NS6-Z9-rty" secondAttribute="top" constant="3" id="fRd-t0-ZyG"/>
+                            <constraint firstAttribute="bottom" secondItem="aKb-Em-ijb" secondAttribute="bottom" constant="3" id="sFs-4C-jTk"/>
+                            <constraint firstAttribute="trailing" secondItem="aKb-Em-ijb" secondAttribute="trailing" constant="3" id="tgo-ST-Euh"/>
+                            <constraint firstAttribute="height" constant="213" id="wVi-zL-rY4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NS6-Z9-rty" secondAttribute="bottom" id="O9v-3K-4XT"/>
+                <constraint firstItem="NS6-Z9-rty" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Oh5-Ys-Hj3"/>
+                <constraint firstAttribute="trailing" secondItem="NS6-Z9-rty" secondAttribute="trailing" id="bjR-sk-waq"/>
+                <constraint firstItem="NS6-Z9-rty" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="yMf-0G-adC"/>
+            </constraints>
+            <size key="customSize" width="244" height="109"/>
+            <connections>
+                <outlet property="btn_route" destination="1dL-Yw-hHY" id="3CS-bi-IJ6"/>
+                <outlet property="img_background" destination="aKb-Em-ijb" id="5uI-Zp-EhA"/>
+                <outlet property="lbl_date" destination="LNw-IF-Z5j" id="qal-EN-DoM"/>
+                <outlet property="lbl_subTitle" destination="Ex1-hz-NwM" id="0LY-5l-8eK"/>
+                <outlet property="lbl_title" destination="NRH-Wl-aJs" id="E82-aa-rb3"/>
+            </connections>
+            <point key="canvasLocation" x="271.73913043478262" y="131.58482142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Datingbackground" width="334" height="712"/>
+        <namedColor name="gray_color_1">
+            <color red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Light.otf">
+            <string>Inter-Light</string>
+        </array>
+        <array key="Inter-Regular.otf">
+            <string>Inter-Regular</string>
+        </array>
+        <array key="Inter-SemiBold.otf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DatingJourneyUpcomingDatesTableViewCell" rowHeight="271" id="KGk-i7-Jjw" customClass="DatingJourneyUpcomingDatesTableViewCell" customModule="iosbingo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="271"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="271"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzQ-pf-JPs">
+                        <rect key="frame" x="0.0" y="0.0" width="409" height="271"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Datingbackground" translatesAutoresizingMaskIntoConstraints="NO" id="Fpx-D1-DmW">
+                                <rect key="frame" x="0.0" y="0.0" width="409" height="271"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="with samuel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFQ-FY-9Gx">
+                                <rect key="frame" x="16" y="225.5" width="56" height="12.5"/>
+                                <fontDescription key="fontDescription" name="Inter-Light" family="Inter" pointSize="10"/>
+                                <color key="textColor" red="0.99990195039999996" green="1" blue="0.99987989659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anniversary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y9g-uU-ckk">
+                                <rect key="frame" x="16" y="208.5" width="70.5" height="15"/>
+                                <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                                <color key="textColor" red="0.99990195039999996" green="1" blue="0.99987989659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8I5-Di-Il4">
+                                <rect key="frame" x="16" y="191.5" width="38" height="15"/>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="12"/>
+                                <color key="textColor" red="0.99990195039999996" green="1" blue="0.99987989659999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AuH-yS-sGh">
+                                <rect key="frame" x="0.0" y="246" width="409" height="25"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="79 days to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a4a-zV-Bq0">
+                                        <rect key="frame" x="16" y="6" width="55.5" height="13.5"/>
+                                        <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="11"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="a4a-zV-Bq0" firstAttribute="leading" secondItem="AuH-yS-sGh" secondAttribute="leading" constant="16" id="0s3-y6-40x"/>
+                                    <constraint firstAttribute="height" constant="25" id="dma-NC-lhJ"/>
+                                    <constraint firstItem="a4a-zV-Bq0" firstAttribute="centerY" secondItem="AuH-yS-sGh" secondAttribute="centerY" id="h42-fv-tik"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JFQ-FY-9Gx" firstAttribute="top" secondItem="Y9g-uU-ckk" secondAttribute="bottom" constant="2" id="827-ph-2XM"/>
+                            <constraint firstItem="Fpx-D1-DmW" firstAttribute="top" secondItem="vzQ-pf-JPs" secondAttribute="top" id="8SA-DT-bdk"/>
+                            <constraint firstAttribute="trailing" secondItem="Fpx-D1-DmW" secondAttribute="trailing" id="GfR-SN-61o"/>
+                            <constraint firstAttribute="height" constant="271" id="GgB-As-gLE"/>
+                            <constraint firstItem="JFQ-FY-9Gx" firstAttribute="leading" secondItem="vzQ-pf-JPs" secondAttribute="leading" constant="16" id="H7d-sY-GkX"/>
+                            <constraint firstItem="8I5-Di-Il4" firstAttribute="leading" secondItem="vzQ-pf-JPs" secondAttribute="leading" constant="16" id="Oib-pS-i9T"/>
+                            <constraint firstAttribute="trailing" secondItem="AuH-yS-sGh" secondAttribute="trailing" id="ZMu-Sx-IlK"/>
+                            <constraint firstAttribute="bottom" secondItem="AuH-yS-sGh" secondAttribute="bottom" id="Zbj-BL-saK"/>
+                            <constraint firstAttribute="bottom" secondItem="Fpx-D1-DmW" secondAttribute="bottom" id="Zdh-s0-ggL"/>
+                            <constraint firstItem="AuH-yS-sGh" firstAttribute="leading" secondItem="vzQ-pf-JPs" secondAttribute="leading" id="gFf-PB-2Nv"/>
+                            <constraint firstItem="AuH-yS-sGh" firstAttribute="top" secondItem="JFQ-FY-9Gx" secondAttribute="bottom" constant="8" id="hNk-B1-ZBc"/>
+                            <constraint firstItem="Y9g-uU-ckk" firstAttribute="top" secondItem="8I5-Di-Il4" secondAttribute="bottom" constant="2" id="hp9-3x-tG1"/>
+                            <constraint firstItem="Y9g-uU-ckk" firstAttribute="leading" secondItem="vzQ-pf-JPs" secondAttribute="leading" constant="16" id="iwU-ij-ptR"/>
+                            <constraint firstItem="Fpx-D1-DmW" firstAttribute="leading" secondItem="vzQ-pf-JPs" secondAttribute="leading" id="suP-Hg-Gvj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vzQ-pf-JPs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="PDH-dz-LgA"/>
+                    <constraint firstAttribute="bottom" secondItem="vzQ-pf-JPs" secondAttribute="bottom" id="ZNO-aE-pF9"/>
+                    <constraint firstAttribute="trailing" secondItem="vzQ-pf-JPs" secondAttribute="trailing" id="jAg-jD-7rr"/>
+                    <constraint firstItem="vzQ-pf-JPs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="k5R-BD-uf3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <point key="canvasLocation" x="196.37681159420291" y="187.83482142857142"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Datingbackground" width="334" height="712"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-SemiBold.otf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="tyr-cm-92Q" customClass="DatingNightCatelogHeader" customModule="iosbingo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ig4-2W-Hbx">
+                    <rect key="frame" x="8" y="0.0" width="398" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Top events for you" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D30-Rl-CrB">
+                            <rect key="frame" x="8" y="12" width="116.5" height="16"/>
+                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QKs-v6-cpf">
+                            <rect key="frame" x="340" y="5" width="50" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="9L1-ck-lOG"/>
+                                <constraint firstAttribute="height" constant="30" id="JaQ-sM-FQw"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="12"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="See All">
+                                <color key="titleColor" red="0.29203718899999997" green="0.6709737778" blue="0.77569741010000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="D30-Rl-CrB" firstAttribute="centerY" secondItem="Ig4-2W-Hbx" secondAttribute="centerY" id="SJt-8j-6xi"/>
+                        <constraint firstAttribute="trailing" secondItem="QKs-v6-cpf" secondAttribute="trailing" constant="8" id="VXM-4H-J3B"/>
+                        <constraint firstItem="D30-Rl-CrB" firstAttribute="leading" secondItem="Ig4-2W-Hbx" secondAttribute="leading" constant="8" id="W9d-hu-8dy"/>
+                        <constraint firstItem="QKs-v6-cpf" firstAttribute="centerY" secondItem="Ig4-2W-Hbx" secondAttribute="centerY" id="bE4-Fe-Yia"/>
+                        <constraint firstAttribute="height" constant="40" id="pX2-dP-O5D"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="HgD-GY-Wd2"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Ig4-2W-Hbx" firstAttribute="top" secondItem="tyr-cm-92Q" secondAttribute="top" id="Lci-cU-D36"/>
+                <constraint firstItem="HgD-GY-Wd2" firstAttribute="trailing" secondItem="Ig4-2W-Hbx" secondAttribute="trailing" constant="8" id="kkB-zP-cAs"/>
+                <constraint firstAttribute="bottom" secondItem="Ig4-2W-Hbx" secondAttribute="bottom" id="kxc-Vc-Is0"/>
+                <constraint firstItem="Ig4-2W-Hbx" firstAttribute="leading" secondItem="HgD-GY-Wd2" secondAttribute="leading" constant="8" id="lbW-aR-tgP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_seeAll" destination="QKs-v6-cpf" id="xJQ-ra-J9z"/>
+                <outlet property="lbl_title" destination="D30-Rl-CrB" id="Tuy-Js-Kcc"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="-192.85714285714286"/>
+        </view>
+    </objects>
+</document>

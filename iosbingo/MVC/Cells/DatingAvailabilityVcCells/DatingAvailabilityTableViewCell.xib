@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-Regular.otf">
+            <string>Inter-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="52" id="KGk-i7-Jjw" customClass="DatingAvailabilityTableViewCell" customModule="iosbingo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tSi-Lo-3lu">
+                        <rect key="frame" x="8" y="0.0" width="304" height="52"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9C-kc-ByY">
+                                <rect key="frame" x="0.0" y="51.5" width="304" height="0.5"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="0nL-c6-JyG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL5-Pq-8hg">
+                                <rect key="frame" x="8" y="6" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nfE-YL-YgB"/>
+                                    <constraint firstAttribute="width" constant="40" id="ts9-vg-bhp"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="emptyCheckBox"/>
+                                <connections>
+                                    <action selector="btn_checkUncheck:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NiN-4e-4Lo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I’m available              7 days-a-week" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6aq-Kj-ckF">
+                                <rect key="frame" x="72" y="4" width="150" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="wMp-XL-690"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Inter-Regular" family="Inter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6aq-Kj-ckF" firstAttribute="leading" secondItem="rL5-Pq-8hg" secondAttribute="trailing" constant="24" id="0y2-jM-sKt"/>
+                            <constraint firstItem="rL5-Pq-8hg" firstAttribute="centerY" secondItem="tSi-Lo-3lu" secondAttribute="centerY" id="1ND-5U-0AE"/>
+                            <constraint firstItem="6aq-Kj-ckF" firstAttribute="centerY" secondItem="rL5-Pq-8hg" secondAttribute="centerY" id="2jP-b7-cNd"/>
+                            <constraint firstAttribute="height" constant="52" id="Cjf-8w-AoK"/>
+                            <constraint firstItem="h9C-kc-ByY" firstAttribute="leading" secondItem="tSi-Lo-3lu" secondAttribute="leading" id="FcB-61-Lja"/>
+                            <constraint firstAttribute="bottom" secondItem="h9C-kc-ByY" secondAttribute="bottom" id="SHy-Zi-SMp"/>
+                            <constraint firstAttribute="trailing" secondItem="h9C-kc-ByY" secondAttribute="trailing" id="dkr-db-7fW"/>
+                            <constraint firstItem="rL5-Pq-8hg" firstAttribute="leading" secondItem="tSi-Lo-3lu" secondAttribute="leading" constant="8" id="rDc-gI-vUL"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="tSi-Lo-3lu" secondAttribute="bottom" id="5io-jj-ncP"/>
+                    <constraint firstAttribute="trailing" secondItem="tSi-Lo-3lu" secondAttribute="trailing" constant="8" id="pLc-xJ-nl1"/>
+                    <constraint firstItem="tSi-Lo-3lu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="taF-EE-Jx2"/>
+                    <constraint firstItem="tSi-Lo-3lu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="w1j-hF-WAw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btn_checkUncheck" destination="rL5-Pq-8hg" id="L0k-bh-WlH"/>
+                <outlet property="lbl_days" destination="6aq-Kj-ckF" id="6xr-3S-Va3"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="113.16964285714285"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="emptyCheckBox" width="19" height="19"/>
+    </resources>
+</document>

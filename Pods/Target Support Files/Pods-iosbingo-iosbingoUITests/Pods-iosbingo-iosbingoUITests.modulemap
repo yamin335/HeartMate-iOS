@@ -1,0 +1,6 @@
+framework module Pods_iosbingo_iosbingoUITests {
+  umbrella header "Pods-iosbingo-iosbingoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,97 @@
+{
+  "status": "ok",
+  "user": [
+    {
+      "firstName": "regina",
+      "groupID": 1,
+      "color_code": "#FFC300"
+    },
+    {
+      "firstName": "rachel",
+      "groupID": 4,
+      "color_code": "#DA75E4"
+    },
+    {
+      "firstName": "Georgina",
+      "groupID": 3,
+      "color_code": "#6683E4"
+    },
+    {
+      "firstName": "Rebbie",
+      "groupID": 2,
+      "color_code": "#34CA56"
+    }
+  ],
+  "partners": [
+    {
+      "time_of_day": "morning",
+      "plans": [
+        {
+          "booking_id": 1,
+          "date": "Sep 10, 2022",
+          "start_time": "7:30am",
+          "excerpt": "Drop off Alfred",
+          "group_id": 1,
+          "color_code": "#FFC300",
+          "first_name": "Regina",
+          "avatar": "http://team.legrandbeaumarche.com/wp-content/uploads/2022/09/42152999.jpg"
+        },
+        {
+          "booking_id": 1315,
+          "date": "Sep 10, 2022",
+          "start_time": "9:30am",
+          "excerpt": "Breakfast",
+          "group_id": 1,
+          "color_code": "#FFC300",
+          "first_name": "Regina",
+          "avatar": "http://team.legrandbeaumarche.com/wp-content/uploads/2022/09/42152999.jpg"
+        }
+      ]
+    },
+    {
+      "time_of_day": "afternoon",
+      "plans": [
+        {
+          "booking_id": 341,
+          "date": "Sep 11, 2022",
+          "start_time": "12:00pm",
+          "excerpt": "Coffee Shop Visit",
+          "group_id": 2,
+          "color_code": "#34CA56",
+          "first_name": "Rebbie",
+          "avatar": "http://team.legrandbeaumarche.com/wp-content/uploads/2022/09/42152999.jpg"
+        }
+      ]
+    },
+    {
+      "time_of_day": "afternoon",
+      "plans": [
+        {
+          "booking_id": 4521,
+          "date": "Sep 10, 2022",
+          "start_time": "2:30pm",
+          "excerpt": "Flower Shopping",
+          "group_id": 3,
+          "color_code": "#6683E4",
+          "first_name": "Georgina",
+          "avatar": "http://team.legrandbeaumarche.com/wp-content/uploads/2022/09/42152999.jpg"
+        }
+      ]
+    },
+    {
+      "time_of_day": "evening",
+      "plans": [
+        {
+          "booking_id": 76,
+          "date": "Sep 13, 2022",
+          "start_time": "7:30pm",
+          "excerpt": "Dinner at Big Fish Grill",
+          "group_id": 4,
+          "color_code": "#DA75E4",
+          "first_name": "Rachel",
+          "avatar": "http://team.legrandbeaumarche.com/wp-content/uploads/2022/09/42152999.jpg"
+        }
+      ]
+    }
+  ]
+}

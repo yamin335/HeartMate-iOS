@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-SemiBold.otf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="M36-km-bOj" customClass="DatingPartnerStatisticsHeader" customModule="iosbingo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fLY-Af-5ls">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AoC-Mr-hkk">
+                            <rect key="frame" x="8" y="5" width="341" height="35"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aesthetic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvV-8A-OIF">
+                                    <rect key="frame" x="16" y="9.5" width="61" height="16"/>
+                                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                                    <color key="textColor" red="0.1029383913" green="0.1080811247" blue="0.69133818150000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1SM-Nd-T3a">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="35"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.60921847819999997" green="0.81761187310000005" blue="0.87590855359999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="1SM-Nd-T3a" secondAttribute="bottom" id="EGh-gw-z7q"/>
+                                <constraint firstAttribute="trailing" secondItem="1SM-Nd-T3a" secondAttribute="trailing" id="Gry-uY-97l"/>
+                                <constraint firstItem="QvV-8A-OIF" firstAttribute="centerY" secondItem="AoC-Mr-hkk" secondAttribute="centerY" id="X2h-Xq-nk5"/>
+                                <constraint firstItem="1SM-Nd-T3a" firstAttribute="leading" secondItem="AoC-Mr-hkk" secondAttribute="leading" id="bQe-Ku-oK6"/>
+                                <constraint firstItem="QvV-8A-OIF" firstAttribute="leading" secondItem="AoC-Mr-hkk" secondAttribute="leading" constant="16" id="bsd-Mj-cvW"/>
+                                <constraint firstAttribute="height" constant="35" id="h0t-6V-7KN"/>
+                                <constraint firstItem="1SM-Nd-T3a" firstAttribute="top" secondItem="AoC-Mr-hkk" secondAttribute="top" id="yjI-sh-AmL"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="rounded" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW1-g3-Ilr">
+                            <rect key="frame" x="377" y="14.5" width="9" height="16"/>
+                            <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                            <color key="textColor" red="0.1029383913" green="0.1080811247" blue="0.69133818150000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="AoC-Mr-hkk" firstAttribute="leading" secondItem="fLY-Af-5ls" secondAttribute="leading" constant="8" id="1Mx-8u-uEv"/>
+                        <constraint firstItem="AoC-Mr-hkk" firstAttribute="centerY" secondItem="fLY-Af-5ls" secondAttribute="centerY" id="BmY-Es-jcv"/>
+                        <constraint firstAttribute="height" constant="45" id="T38-3W-rSC"/>
+                        <constraint firstItem="WW1-g3-Ilr" firstAttribute="centerY" secondItem="fLY-Af-5ls" secondAttribute="centerY" id="fno-OA-gdi"/>
+                        <constraint firstAttribute="trailing" secondItem="WW1-g3-Ilr" secondAttribute="trailing" constant="28" id="iZy-yM-NGC"/>
+                        <constraint firstItem="WW1-g3-Ilr" firstAttribute="leading" secondItem="AoC-Mr-hkk" secondAttribute="trailing" constant="28" id="lp8-19-YaN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="NUt-BQ-ooA"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="fLY-Af-5ls" secondAttribute="bottom" id="9ka-7p-hQ1"/>
+                <constraint firstItem="NUt-BQ-ooA" firstAttribute="trailing" secondItem="fLY-Af-5ls" secondAttribute="trailing" id="H44-AF-nP6"/>
+                <constraint firstItem="fLY-Af-5ls" firstAttribute="leading" secondItem="NUt-BQ-ooA" secondAttribute="leading" id="WWJ-nc-FWE"/>
+                <constraint firstItem="fLY-Af-5ls" firstAttribute="top" secondItem="M36-km-bOj" secondAttribute="top" id="yi9-oh-NMN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btn_click" destination="1SM-Nd-T3a" id="sP3-my-eY4"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="-199.88839285714286"/>
+        </view>
+    </objects>
+</document>
